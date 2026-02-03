@@ -1,0 +1,36 @@
+/* ===== FADE IN ===== */
+.ad-animate.fade {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* ===== SLIDE UP ===== */
+.ad-animate.slide {
+    animation: slideUp 0.8s ease forwards;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* ===== NONE ===== */
+.ad-animate.none {
+    animation: none;
+}
